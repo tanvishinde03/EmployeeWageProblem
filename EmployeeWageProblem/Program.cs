@@ -26,8 +26,12 @@ namespace EmployeeWageProblem
             //UseSwitchCase.SwitchCase();
             //Console.ReadLine();
 
-            MonthlyWage monthlyWage= new MonthlyWage();   //UC5
-            MonthlyWage.EmployeeMonthlyWage();
+            //MonthlyWage monthlyWage= new MonthlyWage();   //UC5
+            //MonthlyWage.EmployeeMonthlyWage();
+            //Console.ReadLine();
+
+            TotalDaysHours totalDaysHours = new TotalDaysHours();  //UC6
+            TotalDaysHours.DaysHoursOfMonth();
             Console.ReadLine();
         }
     }
