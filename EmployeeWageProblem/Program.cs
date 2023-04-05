@@ -18,8 +18,12 @@ namespace EmployeeWageProblem
             //DailyEmpWage.EmpWage();
             //Console.ReadLine();
 
-            PartTimeEmpWage parttimeemp = new PartTimeEmpWage();
-            PartTimeEmpWage.PartTime();
+            //PartTimeEmpWage parttimeemp = new PartTimeEmpWage();  //UC3
+            //PartTimeEmpWage.PartTime();
+            //Console.ReadLine();
+
+            UseSwitchCase switchcase= new UseSwitchCase();
+            UseSwitchCase.SwitchCase();
             Console.ReadLine();
         }
     }
