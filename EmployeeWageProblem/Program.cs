@@ -10,8 +10,12 @@ namespace EmployeeWageProblem
     {
         static void Main(string[] args)
         {
-            CheckAttendance checkattendance = new CheckAttendance();  //UC1
-            checkattendance.Attendance();
+            //CheckAttendance checkattendance = new CheckAttendance();  //UC1
+            //checkattendance.Attendance();
+            //Console.ReadLine();
+
+            DailyEmpWage dailyempwage = new DailyEmpWage();  //UC2
+            DailyEmpWage.EmpWage();
             Console.ReadLine();
         }
     }
