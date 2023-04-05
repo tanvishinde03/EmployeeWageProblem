@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="CheckAttendance.cs" />
     <Compile Include="DailyEmpWage.cs" />
+    <Compile Include="MonthlyWage.cs" />
     <Compile Include="PartTimeEmpWage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

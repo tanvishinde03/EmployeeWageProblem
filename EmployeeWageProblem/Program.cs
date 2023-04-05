@@ -22,8 +22,12 @@ namespace EmployeeWageProblem
             //PartTimeEmpWage.PartTime();
             //Console.ReadLine();
 
-            UseSwitchCase switchcase= new UseSwitchCase();
-            UseSwitchCase.SwitchCase();
+            //UseSwitchCase switchcase= new UseSwitchCase();   //UC4
+            //UseSwitchCase.SwitchCase();
+            //Console.ReadLine();
+
+            MonthlyWage monthlyWage= new MonthlyWage();   //UC5
+            MonthlyWage.EmployeeMonthlyWage();
             Console.ReadLine();
         }
     }
