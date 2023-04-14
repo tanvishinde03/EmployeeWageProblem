@@ -30,8 +30,12 @@ namespace EmployeeWageProblem
             //MonthlyWage.EmployeeMonthlyWage();
             //Console.ReadLine();
 
-            TotalDaysHours totalDaysHours = new TotalDaysHours();  //UC6
-            TotalDaysHours.DaysHoursOfMonth();
+            //TotalDaysHours totalDaysHours = new TotalDaysHours();  //UC6
+            //TotalDaysHours.DaysHoursOfMonth();
+            //Console.ReadLine();
+
+            RefectorCode obJ = new RefectorCode();    //UC7
+            RefectorCode.ComputeEmpWage();
             Console.ReadLine();
         }
     }
